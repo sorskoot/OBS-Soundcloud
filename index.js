@@ -64,7 +64,7 @@
                     tracks = sound.tracks.map(d => {
                         return {
                             art: d.artwork_url,
-                            stream: d.stream_url + '?client_id=' + client_id,
+                            stream: d.stream_url + '?client_id=' + window.clientId,
                             title: d.title,
                             artist: d.user.username
                         };
