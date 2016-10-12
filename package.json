@@ -1,0 +1,22 @@
+{
+  "name": "soundcloudplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {
+    "connect": "^3.5.0",
+    "finalhandler": "^0.5.0",
+    "jquery": "^3.1.1",
+    "serve-static": "^1.11.1",
+    "socket.io": "^1.4.8",
+    "soundcloud": "^3.1.2"
+  }
+}
