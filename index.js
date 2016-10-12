@@ -46,17 +46,11 @@
         }
     }
 
-
-    // socket.on('message', function (data) {
-    //     document.querySelector('#message').innerHTML = data.message;
-    // });
-
     let tracks = [];
     let currentTrack = 0;
-    let client_id = '6031cf201be2558d427e0ff5e4a8d07d'
-
+    
     SC.initialize({
-        client_id: client_id
+        client_id: window.clientId
     });
 
     var canvas = document.getElementById("canvas");
